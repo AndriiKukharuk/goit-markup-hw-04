@@ -399,15 +399,7 @@ background: rgba(47, 48, 58, 0.4);
    
 }
 /* 4 Work SVG */
-.icon-envelope, .icon-smartphone{
 
-margin-right: 10px;
-fill: currentColor
-  }
-
-a:hover{
-  color: var(--color-third);
-}
 .feature-list-before::before{
   content: '';
   display: inline-block;
@@ -458,32 +450,45 @@ background-image: url(../images/clock\ 1.svg);
     background-size: 70px;
 
 }
-.link-social-bot{
-  display: block;
-width: 44px;
-height: 44px;
-border-radius: 50%;
+
+.link-social-botter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 32px;
+  padding-top: 16px;
+  
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+  
+}
+.link-social-bot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  fill: var(--color-social)
+
 }
 .link-social-bot:hover{
   background-color: var(--color-third);
-
-}
-.link-social-insta{
-  width: 20px;
-  height: 20px;
-  fill: var(--color-social);
-  
-  
-}
-.link-social-insta:hover{
   fill: var(--color-primary);
 }
-.link-social-botter{
-  display: flex;
- gap: 10px;
- padding-left: 32px;
- margin-top: 16px;
+.icon-envelope, .icon-smartphone{
+
+margin-right: 10px;
+fill: currentColor
+  }
+
+a:hover{
+  color: var(--color-third);
+  fill: var(--color-third);
 }
+
 .clients{
   padding-top: 94px;
     padding-bottom: 94px;
@@ -491,6 +496,7 @@ border-radius: 50%;
 .clients-flex{
   display: flex;
   gap: 30px;
+  align-items: center;
 
 }
 .clients-ikon{
@@ -498,9 +504,16 @@ border-radius: 50%;
     border-radius: 4px;
     width: 170px;
       height: 92px;
-      
-
+}
+.clients-link{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  border-radius: 50%;
+    fill: var(--color-social)
+ 
 }
 .svg-bot{
-  
 }

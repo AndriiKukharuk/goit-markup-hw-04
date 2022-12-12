@@ -24,7 +24,7 @@ ul {
   --color-link: #757575;
   --color-section: #2f303a;
   --color-bottom: #f5f4fa;
-  --color-social:#AFB1B8;
+  --color-social: #afb1b8;
 }
 
 .logo {
@@ -153,7 +153,7 @@ p {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top:30px ;
+  margin-top: 30px;
 }
 .profession {
   font-size: 16px;
@@ -331,7 +331,6 @@ h1 {
   gap: 30px;
 
   padding-left: 0px;
-
 }
 .team-flex > li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -342,10 +341,9 @@ h1 {
 }
 .team {
   padding-top: 94px;
-    padding-bottom: 94px;
+  padding-bottom: 94px;
   background-color: var(--color-bottom);
 }
-
 
 .logo-bottom {
   color: var(--color-third);
@@ -392,16 +390,14 @@ h1 {
   border-left: 1px solid #eeeeee;
 }
 
-  .section{
-background: rgba(47, 48, 58, 0.4);
-    background-image: url(../images/backgraundfone.jpg
-  );
-   
+.section {
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url(../images/backgraundfone.jpg);
 }
 /* 4 Work SVG */
 
-.feature-list-before::before{
-  content: '';
+.feature-list-before::before {
+  content: "";
   display: inline-block;
   margin-bottom: 30px;
   height: 120px;
@@ -413,56 +409,52 @@ background: rgba(47, 48, 58, 0.4);
   background-size: 70px;
 }
 .feature-list-before1::before {
-  content: '';
+  content: "";
   display: inline-block;
   margin-bottom: 30px;
   height: 120px;
   width: 270px;
   background-color: var(--color-bottom);
-background-image: url(../images/clock\ 1.svg);
+  background-image: url(../images/clock\ 1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px;
-
 }
 .feature-list-before2::before {
-  content: '';
+  content: "";
   display: inline-block;
   margin-bottom: 30px;
   height: 120px;
   width: 270px;
   background-color: var(--color-bottom);
   background-image: url(../images/diagram\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
-
-}.feature-list-before3::before {
-  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+}
+.feature-list-before3::before {
+  content: "";
   display: inline-block;
   margin-bottom: 30px;
   height: 120px;
   width: 270px;
   background-color: var(--color-bottom);
   background-image: url(../images/astronaut\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
 }
 
-.link-social-botter{
+.link-social-botter {
   display: flex;
   align-items: center;
   gap: 10px;
   padding-left: 32px;
   padding-top: 16px;
-  
 }
 .social-item {
   width: 44px;
   height: 44px;
-  
 }
 .link-social-bot {
   display: flex;
@@ -471,49 +463,75 @@ background-image: url(../images/clock\ 1.svg);
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  fill: var(--color-social)
-
+  fill: var(--color-social);
 }
-.link-social-bot:hover{
+
+.link-social-bot:hover {
   background-color: var(--color-third);
   fill: var(--color-primary);
 }
-.icon-envelope, .icon-smartphone{
+.icon-envelope,
+.icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
 
-margin-right: 10px;
-fill: currentColor
-  }
-
-a:hover{
+a:hover {
   color: var(--color-third);
   fill: var(--color-third);
 }
 
-.clients{
+.clients {
   padding-top: 94px;
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
-.clients-flex{
+.clients-flex {
   display: flex;
   gap: 30px;
   align-items: center;
-
 }
-.clients-ikon{
-  border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    width: 170px;
-      height: 92px;
+.clients-ikon {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
-.clients-link{
+.clients-ikon:hover {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+.clients-link {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-    fill: var(--color-social)
- 
+  fill: var(--color-social);
 }
-.svg-bot{
+.fotter-flex {
+  display: flex;
+}
+.bottom-link-nav {
+  padding-left: 70px;
+}
+.bottom-link-come {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: 10px;
+}
+.footer-link {
+  padding-left: 0px;
+  padding-top: 20px;
+}
+.bot-backgraund {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
